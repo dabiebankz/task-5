@@ -1,0 +1,406 @@
+*,* ::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-colum-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-font {
+    font-family: 'playfair display', serif;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url('../img/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-heading {
+     font-size: 6rem;
+     font-style: italic;
+     padding: 0 2rem;
+
+}
+
+.banner .banner-text {
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    padding: 30px;
+}
+
+.announce-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.announce {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.announce span {
+    font-size: 6rem;
+    line-height: 0;
+}
+.announce-section p {
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.gallery .img-container {
+    height: 500px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gallery .gallery-img-1 {
+    background-image: url(../img/gallery-1.jpeg);
+
+}
+
+.gallery .gallery-img-2 {
+    background-image: url(../img/gallery-2.jpeg);
+
+}
+
+.gallery .gallery-img-3 {
+    background-image: url(../img/gallery-3.jpeg);
+
+}
+.gallery .gallery-img-4 {
+    background-image: url(../img/gallery-4.jpeg);
+
+}
+
+.gallery .gallery-img-5 {
+    background-image: url(../img/gallery-5.jpeg);
+
+}
+
+.gallery .gallery-img-6 {
+    background-image: url(../img/gallery-6.jpeg);
+
+}
+
+.coming-soon {
+    background-color: #d9b1b3;
+    color: white;
+    padding: 50px 0;
+}
+
+.coming-soon .row-colum-100 {
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading, 
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
+    text-align: center;
+}
+
+.coming-soon .coming-soon-heading {
+    font-size: 4rem;
+    font-style: italic;
+
+}
+
+.coming-soon .coming-soon-text {
+    font-size: 1.3rem;
+}
+
+.coming-soon .coming-soon-form {
+    margin-top: 35px;
+}
+
+.coming-soon .row-100 {
+    justify-content: center;
+}
+
+.coming-soon-form .input-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.input-container .text-input,
+.input-container .form-btn {
+    padding: 12px 10px;
+    border: unset;
+    border-radius: 20px;
+}
+
+.input-container .form-btn {
+    background-color: black;
+    color: white;
+}
+
+.section-image {
+    width: 350px;
+    height: 80vh;
+    margin-left: 100px;
+}
+
+.article {
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+} 
+
+
+.write-up {
+    margin-top: 100px;
+}
+
+.sign {
+    margin: 30px auto 0 0;
+}
+
+.spring-container {
+    margin-left: 135px;
+    margin-top: 40px;
+}
+
+#spring {
+    background-color: #d9b1b3;
+    height: 110vh;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.heading-top {
+    font-family: 'playfair display', serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-left: 300px;
+    color: white;
+}
+
+.image-collection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.image1 img {
+    width: 100%;
+    height: 55vh;
+    display: flexbox;
+    cursor: pointer;
+}
+
+.image2 img {
+    width: 90%;
+    height: 55vh;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.image3 img {
+    width: 110%;
+    height: 55vh;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.image4 img {
+    width: 95%;
+    height: 55vh;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.arrow-right {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.canvas-collection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 85px;
+    
+}
+.canvas1 img {
+    width: 262px;
+    height: 300px;
+    margin-left: 50px;
+}
+.canvas2 img {
+    width: 262px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.input-space .form-btn {
+    background-color: black;
+    color: white;
+    padding: 12px 40px;
+    border: unset;
+    border-radius: 20px;
+}
+
+.about-me {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+.about-this {
+    display: flex;
+    gap: 15%;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.about-us {
+    margin-left: -100px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+
+}
+
+.dollar {
+    margin-top: 10px;
+    font-weight: 700;
+}
+.sample-text {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.input-space {
+    margin-top: 15px;
+}
+.last-image img {
+    width: 40%;
+    height: 100vh;
+    margin-left: 0;
+    padding: 30px;
+    padding-left: 1px;
+    padding-right: 10px;
+}
+.margin {
+    height: 10px;
+    width: 600px;
+    margin-left: 50px;
+    display: block;
+    background-color: #d9b1b3;
+    border-bottom-width: 0;
+    border-width: 10px;
+}
+
+.subscribe-par {
+    font-family: 'playfair display', serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-left: 250px;
+    color: black;
+}
+.btn-space {
+    background-color: black;
+    color: white;
+    padding: 12px 40px;
+    border: unset;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 300px;
+    line-height: 1.6;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    border-color: #b3b3b3;
+
+}
+.text {
+    margin-left: 200px;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.about-part {
+    padding: 15px 70px;
+
+}
+.design-name {
+    padding: 15px 70px;
+    
+}
+.name {
+    margin-left: 15px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.over-all {
+    margin: -550px 550px;
+    text-align: center;   
+}
+
+.form{
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+
+.social-icons{
+    margin: 20px 0;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons .twitter {
+    padding: 0 30px;
+    margin-left: 10px;
+
+}
